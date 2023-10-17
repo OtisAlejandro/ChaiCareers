@@ -365,6 +365,22 @@ ul {
   gap: 0.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .job__listings--el__listings {
+    width: 100%;
+  }
+  .job__listings--el__header p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job__listings--el__listings {
+    flex-wrap:wrap;
+    width: 100%;
+  }
+}
+
 /* Backend Eng. Listings */
 
 .job__listings--be {
@@ -414,6 +430,22 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .job__listings--be__listings {
+    width: 100%;
+  }
+  .job__listings--be__header p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job__listings--be__listings {
+    flex-wrap:wrap;
+    width: 100%;
+  }
 }
 
 /* Frontend Eng. Listings */
@@ -466,6 +498,22 @@ ul {
   gap: 0.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .job__listings--fe__listings {
+    width: 100%;
+  }
+  .job__listings--fe__header p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job__listings--fe__listings {
+    flex-wrap:wrap;
+    width: 100%;
+  }
+}
+
 /* AI Eng. Listings */
 .job__listings--aie {
   width: 100%;
@@ -514,6 +562,22 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .job__listings--aie__listings {
+    width: 100%;
+  }
+  .job__listings--aie__header p {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job__listings--aie__listings {
+    flex-wrap:wrap;
+    width: 100%;
+  }
 }
 
 /* Peoppme & Op. Listings */
@@ -567,6 +631,22 @@ ul {
   gap: 0.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .job__listings--po__listings {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .job__listings--po__listings {
+    flex-wrap:wrap;
+    width: 100%;
+  }
+  .job__listings--po__header p {
+    font-size: 2rem;
+  }
+}
+
 /* Global Listing Classes */
 
 .listing--title {
@@ -591,6 +671,7 @@ ul {
   border-radius: 5rem;
   height: 4rem;
   width: 11rem;
+  min-width: 11rem;
   font-size: 1.2rem;
 }
 
@@ -608,6 +689,15 @@ ul {
   height: 1px;
   width: 100%;
   background-color: var(--color-black);
+}
+
+@media screen and (max-width: 768px) {
+  .listing--title {
+    font-size: 1.5rem;
+  }
+  .listing--button {
+    width: 7rem;
+  }
 }
 
 /* Footer */
