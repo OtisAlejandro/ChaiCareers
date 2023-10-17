@@ -265,6 +265,7 @@ ul {
 
 @media screen and (max-width: 768px) {
   .open__roles-content__dropdowns {
+    margin-bottom: 4rem;
     display: flex;
     flex-direction: column;
   }
@@ -708,6 +709,7 @@ ul {
 
 /* Footer */
 .footer {
+  position: fixed;
   background-color: var(--color-light-grey);
   padding-top: 44px;
   margin-top: 15rem;
