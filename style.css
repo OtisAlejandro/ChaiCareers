@@ -61,6 +61,7 @@ html {
 
 body {
   display: block;
+  margin: 0;
 }
 
 ul {
@@ -709,7 +710,6 @@ ul {
 
 /* Footer */
 .footer {
-  position: fixed;
   background-color: var(--color-light-grey);
   padding-top: 44px;
   margin-top: 15rem;
