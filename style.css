@@ -314,6 +314,12 @@ ul {
   color: var(--color-black);
 }
 
+@media screen and (max-width: 1024px) {
+  .job__listings--container {
+    width: 95%;
+  }
+}
+
 /* Engineering Listings */
 
 .job__listings--el {
@@ -376,7 +382,7 @@ ul {
 
 @media screen and (max-width: 768px) {
   .job__listings--el__listings {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -443,7 +449,7 @@ ul {
 
 @media screen and (max-width: 768px) {
   .job__listings--be__listings {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -509,7 +515,7 @@ ul {
 
 @media screen and (max-width: 768px) {
   .job__listings--fe__listings {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -575,7 +581,7 @@ ul {
 
 @media screen and (max-width: 768px) {
   .job__listings--aie__listings {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
 }
@@ -639,7 +645,7 @@ ul {
 
 @media screen and (max-width: 768px) {
   .job__listings--po__listings {
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
   }
   .job__listings--po__header p {
